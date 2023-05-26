@@ -128,7 +128,7 @@ app.post("/start", function(req, res) {
         // console.log(desc);
 
 
-        res.render('output', {
+        res.render('Output', {
           weather: weather,
           city: city,
           desc: desc,
